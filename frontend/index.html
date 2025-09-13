@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Pickles - Premium Artisanal Pickles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-pepper-hot"></i>
+                <span>Golden Pickles</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Artisanal</span>
+                    <span class="title-line">Pickles</span>
+                    <span class="title-accent">Made with Love</span>
+                </h1>
+                <p class="hero-description">
+                    Discover our handcrafted collection of premium pickles, made using traditional recipes 
+                    passed down through generations. Each jar is a celebration of authentic flavors.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#about" class="btn btn-secondary">Our Story</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="pickle-jars">
+                    <div class="jar jar-1">
+                        <div class="jar-content"></div>
+                        <div class="jar-label">Classic Dill</div>
+                    </div>
+                    <div class="jar jar-2">
+                        <div class="jar-content"></div>
+                        <div class="jar-label">Spicy Jalapeño</div>
+                    </div>
+                    <div class="jar jar-3">
+                        <div class="jar-content"></div>
+                        <div class="jar-label">Sweet Bread & Butter</div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-element element-1">🥒</div>
+                    <div class="floating-element element-2">🌶️</div>
+                    <div class="floating-element element-3">🧄</div>
+                    <div class="floating-element element-4">🌿</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-elements">
+            <div class="bg-element bg-1"></div>
+            <div class="bg-element bg-2"></div>
+            <div class="bg-element bg-3"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Premium Collection</h2>
+                <p class="section-subtitle">Handcrafted with traditional methods and premium ingredients</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-image">
+                        <div class="product-jar">
+                            <div class="jar-content dill"></div>
+                        </div>
+                        <div class="product-badge">Best Seller</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Classic Dill Pickles</h3>
+                        <p class="product-description">Crispy cucumbers in a perfect blend of dill, garlic, and spices</p>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <div class="product-price">$8.99</div>
+                        <button class="btn btn-product">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <div class="product-jar">
+                            <div class="jar-content spicy"></div>
+                        </div>
+                        <div class="product-badge new">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Spicy Jalapeño Pickles</h3>
+                        <p class="product-description">Bold and fiery pickles with a kick that will wake up your taste buds</p>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">(4.8/5)</span>
+                        </div>
+                        <div class="product-price">$9.99</div>
+                        <button class="btn btn-product">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <div class="product-jar">
+                            <div class="jar-content sweet"></div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sweet Bread & Butter</h3>
+                        <p class="product-description">Perfectly sweet and tangy pickles that complement any meal</p>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">(4.7/5)</span>
+                        </div>
+                        <div class="product-price">$7.99</div>
+                        <button class="btn btn-product">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <div class="product-jar">
+                            <div class="jar-content mixed"></div>
+                        </div>
+                        <div class="product-badge">Limited</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Gourmet Mixed Vegetables</h3>
+                        <p class="product-description">A delightful mix of cauliflower, carrots, and bell peppers</p>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <div class="product-price">$12.99</div>
+                        <button class="btn btn-product">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title">Our Heritage Story</h2>
+                    <p class="about-description">
+                        For over three generations, our family has been perfecting the art of pickle making. 
+                        What started as a small kitchen experiment has grown into a passion for creating 
+                        the finest artisanal pickles using time-honored techniques.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>100% Natural</h4>
+                                <p>Only the finest organic ingredients</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Traditional Methods</h4>
+                                <p>Time-tested recipes passed through generations</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Premium Quality</h4>
+                                <p>Award-winning taste and texture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <div class="kitchen-scene">
+                                <div class="ingredients">
+                                    <div class="ingredient cucumber">🥒</div>
+                                    <div class="ingredient dill">🌿</div>
+                                    <div class="ingredient garlic">🧄</div>
+                                    <div class="ingredient pepper">🌶️</div>
+                                </div>
+                                <div class="traditional-jar">
+                                    <div class="jar-content traditional"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real reviews from pickle lovers worldwide</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "These are hands down the best pickles I've ever tasted! The dill flavor is perfect 
+                            and the crunch is incredible. I order them by the case!"
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                            <p class="author-title">Food Blogger</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The spicy jalapeño pickles are absolutely amazing! Perfect heat level and the 
+                            quality is outstanding. My family can't get enough of them."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Mike Chen</h4>
+                            <p class="author-title">Chef</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "I've been buying from Golden Pickles for years. Their traditional methods really 
+                            show in the taste. The mixed vegetables are my absolute favorite!"
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">E</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Emily Rodriguez</h4>
+                            <p class="author-title">Home Cook</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-description">
+                        Have questions about our products or want to place a custom order? 
+                        We'd love to hear from you!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Visit Our Store</h4>
+                                <p>123 Pickle Street, Flavor Town, FT 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-PICKLE</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p>hello@goldenpickles.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-pepper-hot"></i>
+                        <span>Golden Pickles</span>
+                    </div>
+                    <p class="footer-description">
+                        Crafting premium artisanal pickles with love and traditional methods since 1952.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Classic Dill</a></li>
+                        <li><a href="#">Spicy Jalapeño</a></li>
+                        <li><a href="#">Sweet Bread & Butter</a></li>
+                        <li><a href="#">Mixed Vegetables</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="newsletter-text">Subscribe for exclusive offers and new product updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-newsletter">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Golden Pickles. All rights reserved. | Made with ❤️ for pickle lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
